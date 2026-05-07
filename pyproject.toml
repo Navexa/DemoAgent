@@ -1,0 +1,17 @@
+[project]
+name = "navexa-demo-agent"
+version = "0.1.0"
+description = "Interactive demo agent — Navexa MCP + Yahoo Finance"
+requires-python = ">=3.12"
+dependencies = [
+    # Market data
+    "yfinance>=0.2.50",
+    # LangChain + LangGraph
+    "langchain-core>=0.3",
+    "langchain-anthropic>=0.3",
+    "langchain-openai>=0.2",
+    "langgraph>=0.2",
+    # Navexa MCP client
+    "langchain-mcp-adapters>=0.1",
+    "mcp>=1.6",
+]

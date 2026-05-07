@@ -1,0 +1,24 @@
+# Copy this file to .envrc and fill in your values, then run: source .envrc
+# .envrc is gitignored — never commit real keys.
+
+# ── Required ──────────────────────────────────────────────────────────────────
+
+# Navexa API key — generate from Settings → API Keys in the Navexa app
+export NAVEXA_API_KEY="your-navexa-api-key"
+
+# LLM provider — set one of these:
+export ANTHROPIC_API_KEY="your-anthropic-api-key"
+# export OPENROUTER_API_KEY="your-openrouter-api-key"
+
+# ── Optional ──────────────────────────────────────────────────────────────────
+
+# Navexa MCP server (default: https://mcp.navexa.com)
+# export MCP_BASE_URL="https://mcp.navexa.com"
+
+# MCP mode — controls which portfolio tools are available
+# Options: read | analysis | manage | no_delete | full
+# export MCP_MODE="manage"
+
+# Claude model to use (default: claude-sonnet-4-6)
+# When using OpenRouter, this is used as: anthropic/<model>
+# export DEMO_MODEL="claude-sonnet-4-6"

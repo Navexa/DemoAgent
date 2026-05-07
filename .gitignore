@@ -1,0 +1,8 @@
+.envrc
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.python-version
+dist/
+*.egg-info/
