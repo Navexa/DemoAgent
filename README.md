@@ -50,6 +50,9 @@ source .envrc
 # Install dependencies
 uv sync
 
+# Activate the virtual environment
+source .venv/bin/activate
+
 # Run
 python agent.py
 ```
